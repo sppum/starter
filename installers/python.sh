@@ -20,14 +20,25 @@ hash pip 2>/dev/null || echo "Please install pip before continuing"
 
 pip_packages=(
   pip
-  fonttools
-  qtfaststart
-  dnsyo
-  powerline-status
+#  fonttools
+#  qtfaststart
+#  dnsyo
+#  powerline-status
 )
 
 # Loop through each package individally because
 # any errors will stop all installations
 for package in "${pip_packages[@]}"; do
   pip install --upgrade "$package"
+done
+
+# User packages
+pyenv global $python_latest
+pip3_user_packages=(
+  neovim
+  pipenv
+)
+
+for package in "${pip_user_packages[@]}"; do
+    pip3 install --upgrade --user "$package"
 done

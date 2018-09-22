@@ -20,8 +20,8 @@ tap "homebrew/headonly"
 
 # Shells
 # Note: Don't forget to add shells to `/etc/shells` before running `chsh`.
-#brew "bash"
-#brew "zsh"
+brew "bash"
+brew "zsh"
 
 # CLI utilities
 # Note: This replaces some (outdated) built-in macOS utilities with the GNU equivalents
@@ -42,6 +42,7 @@ brew "grep"
 #brew "ssh-copy-id"
 brew "tmux"
 brew "tree"
+brew "htop"
 #brew "wget"
 
 # Other useful tools
@@ -134,6 +135,8 @@ brew "duti" # Required for setting preferences
 # as they will be installed and managed via pyenv/rbenv respectively
 #brew "go"
 brew "pyenv" # Python
+brew "pyenv-virtualenv"
+brew "pyenv-alias"
 #brew "ruby-build"
 #brew "rbenv" # Ruby
 #brew "node" # Also installs `npm`
@@ -186,7 +189,7 @@ cask "sublime-text"
 #cask "the-unarchiver"
 #cask "transmission"
 #cask "vector-magic"
-#cask "vlc"
+cask "vlc"
 #cask "wkhtmltopdf"
 
 # Browsers
