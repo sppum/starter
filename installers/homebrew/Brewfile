@@ -28,6 +28,7 @@ brew "zsh"
 # Don't forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew "coreutils"
 brew "curl", args: ["with-nghttp2"]
+brew "httpie"
 #brew "findutils" # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew "git"
 brew "grep"
@@ -139,8 +140,8 @@ brew "pyenv-virtualenv"
 brew "pyenv-alias"
 #brew "ruby-build"
 #brew "rbenv" # Ruby
-#brew "node" # Also installs `npm`
-#brew "yarn" # Faster than npm
+brew "node" # Also installs `npm`
+brew "yarn" # Faster than npm
 
 # Web tools
 #brew "closure-compiler"
@@ -157,6 +158,14 @@ brew "tor"
 #brew "namebench"
 brew "nmap"
 brew "speedtest_cli"
+# ls replacement, includes git information
+brew "exa"
+# Ripgrep; recursive grep which respects gitignore
+brew "rg"
+# Finder replacement
+brew "fd"
+# Commandline fuzzy finder
+brew "fzf"
 
 # Security tools
 #brew "foremost"
@@ -186,6 +195,7 @@ cask "dropbox"
 #cask "sequel-pro"
 #cask "slack"
 cask "sublime-text"
+cask "visual-studio-code"
 #cask "the-unarchiver"
 #cask "transmission"
 #cask "vector-magic"
