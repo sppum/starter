@@ -53,6 +53,15 @@ brew "htop"
 #brew "reattach-to-user-namespace"
 #brew "xmlstarlet"
 brew "nvim"
+brew "awscli"
+# ls replacement, includes git information
+brew "exa"
+# Ripgrep; recursive grep which respects gitignore
+brew "rg"
+# Finder replacement
+brew "fd"
+# Commandline fuzzy finder
+brew "fzf"
 
 # Image tools
 #brew "advancecomp"
@@ -158,20 +167,16 @@ brew "tor"
 #brew "namebench"
 brew "nmap"
 brew "speedtest_cli"
-# ls replacement, includes git information
-brew "exa"
-# Ripgrep; recursive grep which respects gitignore
-brew "rg"
-# Finder replacement
-brew "fd"
-# Commandline fuzzy finder
-brew "fzf"
 
 # Security tools
 #brew "foremost"
 #brew "justwatchcom/gopass/gopass"
 #brew "hashpump"
 #brew "sqlmap"
+#
+
+# Install Docker for mac
+cask "docker"
 
 # Install GUI applications
 #cask "adapter"

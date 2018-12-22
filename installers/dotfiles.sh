@@ -9,14 +9,14 @@ SRC=${HOME}/git/dotfiles/home
 # Install Dotfiles
 if [[ -d ${HOME}/git/dotfiles ]]; then
     cd ${HOME}/git/dotfiles && git pull
-else:
+else
     git clone ssh://git@bitbucket.org/sppum/dotfiles.git ${HOME}/git/dotfiles
 fi
 
 # install tmux-plugin manager
-if [[ -d ${HOME}/.tmux/plugins ]]; then
+if [[ -d ${HOME}/.tmux/plugins/tpm ]]; then
     cd ${HOME}/.tmux/plugins/tpm && git pull
-else:
+else
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
