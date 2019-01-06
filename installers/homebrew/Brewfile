@@ -219,8 +219,9 @@ cask "google-chrome"
 
 # Virtulization applications
 #cask "vmware-fusion"
-#cask "vagrant"
-#cask "vagrant-manager"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
 
 # Preference Panes
 #cask "hosts"
