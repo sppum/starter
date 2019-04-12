@@ -20,6 +20,13 @@ else
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
+# install tmux VPN plugin
+if [[ -d ${HOME}/.tmux/plugins/tmux-vpn ]]; then
+    cd ${HOME}/.tmux/plugins/tmux-vpn && git pull
+else
+    git clone https://github.com/jamesoff/tmux-vpn ~/.tmux/plugins/tmux-vpn
+fi
+
 # Link the files if they don't already exist
 
 cd ${HOME}/git/dotfiles/home
