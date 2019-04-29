@@ -4,6 +4,9 @@
 # Dock
 ###############################################################################
 
+# Don't have bouncing icons
+defaults write com.apple.dock no-bouncing -bool True
+
 # Icon size of Dock items
 defaults write com.apple.dock tilesize -int 46
 

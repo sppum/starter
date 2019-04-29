@@ -29,6 +29,7 @@ brew "zsh"
 brew "coreutils"
 brew "curl", args: ["with-nghttp2"]
 brew "httpie"
+brew "jq"
 #brew "findutils" # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew "git"
 brew "grep"
