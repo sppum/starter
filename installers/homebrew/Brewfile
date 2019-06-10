@@ -16,7 +16,7 @@ tap "homebrew/headonly"
 # Cask dependencies
 #brew "mas"
 #cask "java"
-#cask "xquartz"
+cask "xquartz"
 
 # Shells
 # Note: Don't forget to add shells to `/etc/shells` before running `chsh`.
@@ -34,6 +34,7 @@ brew "jq"
 brew "git"
 brew "grep"
 brew "gnu-tar"
+brew "gnupg"
 #brew "gnu-sed", args: ["default-names"] # Install GNU `sed`, overwriting the built-in `sed`
 #brew "moreutils" # Install more useful GNU utilities like `sponge`
 #brew "openssh"
@@ -105,6 +106,13 @@ brew "fzf"
 #brew "joeyhoer/extras/pngwolf-zopfli", args: ["HEAD"]
 #brew "joeyhoer/extras/video-poster", args: ["HEAD"]
 #brew "webp"
+
+# Textract
+brew "poppler"
+brew "antiword"
+brew "unrtf"
+brew "tesseract"
+brew "swig"
 
 # Compression tools
 #brew "brotli"
