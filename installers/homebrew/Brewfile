@@ -82,7 +82,7 @@ brew "fzf"
 #brew "graphicsmagick"
 #brew "guetzli"
 #brew "icoutils"
-#brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
+brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
 #brew "imageworsener"
 #brew "jhead"
 #brew "jpeg"
