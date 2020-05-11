@@ -17,6 +17,9 @@ tap "homebrew/headonly"
 #brew "mas"
 #cask "java"
 cask "xquartz"
+# To open a different browser depending on criteria
+cask "finicky"
+brew "finicky"
 
 # Shells
 # Note: Don't forget to add shells to `/etc/shells` before running `chsh`.
