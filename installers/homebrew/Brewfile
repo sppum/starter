@@ -12,6 +12,9 @@ tap "homebrew/headonly"
 #tap "homebrew/php"
 #tap "joeyhoer/extras"
 #tap "justwatchcom/gopass"
+# Nerd fonts
+tap "homebrew/cask-fonts"
+cask "font-hack-nerd-font"
 
 # Cask dependencies
 #brew "mas"
@@ -51,6 +54,8 @@ brew "tmux"
 brew "tree"
 brew "htop"
 #brew "wget"
+# Git Secrets
+brew "git-secrets"
 
 # Other useful tools
 #brew "highlight"
